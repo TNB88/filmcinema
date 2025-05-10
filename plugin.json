@@ -1,24 +1,43 @@
 [
     {
-        "iconUrl": "https://clouding.vn/wp-content/uploads/2022/10/cropped-Cloud-Services-192x192.png",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animehay.in&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 40451,
+        "fileSize": 17742,
         "status": 1,
         "authors": [
             "anhdaden"
         ],
-        "version": 3,
-        "internalName": "SyncProvider",
-        "description": "\u0110\u1ed3ng b\u1ed9 c\u00e0i \u0111\u1eb7t v\u00e0 l\u1ecbch s\u1eed xem gi\u1eefa c\u00e1c thi\u1ebft b\u1ecb",
-        "url": "https://gitlab.com/tearrs/cloudstream-vietnamese/-/raw/main/SyncProvider.cs3",
-        "name": "Cross-Device Sync"
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 11,
+        "internalName": "AnimeHayProvider",
+        "url": "https://abyss-api-two.vercel.app/download?folder=anime&file=AnimeHayProvider_1733393561.cs3",
+        "name": "AnimeHayProvider"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animevietsub.app&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://t.me/cloudstream_extension_vn",
+        "fileSize": 21595,
+        "status": 1,
+        "authors": [
+            "anhdaden"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 13,
+        "internalName": "AnimeVietsubProvider",
+        "url": "https://abyss-api-two.vercel.app/download?folder=anime&file=AnimeVietsubProvider_1733393561.cs3",
+        "name": "AnimeVietsubProvider"
     },
     {
         "iconUrl": "https://play-lh.googleusercontent.com/TOTj0uMWp7cXkjXDXkcTZnPigUmpLRRiH956lHRJxStlY7ucxmtwMs_Kr2wOWYm0fSY=w240-h480-rw",
         "apiVersion": 1,
         "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 88126,
+        "fileSize": 102150,
         "status": 1,
         "authors": [
             "anhdaden"
@@ -28,97 +47,66 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 18,
+        "version": 23,
         "internalName": "FshareProvider",
-        "description": "C\u1ea7n \u0111\u0103ng nh\u1eadp t\u00e0i kho\u1ea3n Fshare Vip v\u00e0 d\u00f9ng VLC \u0111\u1ec3 ph\u00e1t",
+        "description": "Download FullHD, 2K, 4K with Fshare Vip account",
         "url": "https://gitlab.com/tearrs/cloudstream-vietnamese/-/raw/main/FshareProvider.cs3",
         "name": "FshareProvider"
     },
     {
-        "iconUrl": "https://www.shutterstock.com/image-vector/iptv-vector-line-icon-ip-260nw-1841427610.jpg",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=hhkungfu.shop&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 32521,
+        "fileSize": 20359,
         "status": 1,
         "authors": [
             "anhdaden"
         ],
         "tvTypes": [
-            "Live"
-        ],
-        "version": 7,
-        "internalName": "IPTVProvider",
-        "description": "C\u1ea7n nh\u1eadp link IPTV \u0111\u1ec3 xem",
-        "url": "https://gitlab.com/tearrs/cloudstream-vietnamese/-/raw/main/IPTVProvider.cs3",
-        "name": "IPTVProvider"
-    },
-     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=javhdz.cc&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 10956,
-        "status": 1,
-        "authors": [
-            "anhdaden"
-        ],
-        "tvTypes": [
-            "NSFW"
+            "Anime",
+            "AnimeMovie"
         ],
         "version": 5,
-        "internalName": "JavHDProvider",
-        "url": "https://abyss-api-two.vercel.app/download?folder=nsfw&file=JavHDProvider_1733393561.cs3",
-        "name": "JavHDProvider"
+        "internalName": "HHkungfuProvider",
+        "description": "Ho\u1ea1t h\u00ecnh Trung Qu\u1ed1c vietsub",
+        "url": "https://abyss-api-two.vercel.app/download?folder=anime&file=HHkungfuProvider_1733393561.cs3",
+        "name": "HHkungfuProvider"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=sextop1.site&sz=%size%",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=hhpanda.tube&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 10426,
+        "fileSize": 17645,
         "status": 1,
         "authors": [
             "anhdaden"
         ],
         "tvTypes": [
-            "NSFW"
+            "Anime"
         ],
-        "version": 7,
-        "internalName": "Sextop1Provider",
-        "url": "https://abyss-api-two.vercel.app/download?folder=nsfw&file=Sextop1Provider_1733393561.cs3",
-        "name": "Sextop1Provider"
+        "version": 11,
+        "internalName": "HHPandaProvider",
+        "description": "Anime, Ho\u1ea1t h\u00ecnh Trung Qu\u1ed1c",
+        "url": "https://abyss-api-two.vercel.app/download?folder=anime&file=HHPandaProvider_1733393561.cs3",
+        "name": "HHPandaProvider"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=vlxx.lol&sz=%size%",
+        "iconUrl": "https://yanhh3d.net/storage/settings/August2024/YOoAwtlobLbwKhiFwRZv.png",
         "apiVersion": 1,
         "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 11365,
+        "fileSize": 32844,
         "status": 1,
         "authors": [
             "anhdaden"
         ],
         "tvTypes": [
-            "NSFW"
+            "Anime",
+            "AnimeMovie"
         ],
-        "version": 5,
-        "internalName": "VlxxProvider",
-        "url": "https://abyss-api-two.vercel.app/download?folder=nsfw&file=VlxxProvider_1733393561.cs3",
-        "name": "VlxxProvider"
-    },
-    {
-        "iconUrl": "https://monplayer.org/images/favicon.ico",
-        "apiVersion": 1,
-        "repositoryUrl": "https://t.me/cloudstream_extension_vn",
-        "fileSize": 44237,
-        "status": 1,
-        "authors": [
-            "anhdaden"
-        ],
-        "tvTypes": [
-            "Others"
-        ],
-        "version": 2,
-        "internalName": "MonPlayerProvider",
-        "description": "C\u1ea7n nh\u1eadp link MonPlayer (https://xem.pro) \u0111\u1ec3 xem",
-        "url": "https://gitlab.com/tearrs/cloudstream-vietnamese/-/raw/main/MonPlayerProvider.cs3",
-        "name": "MonPlayerProvider"
+        "version": 16,
+        "internalName": "YanHH3DProvider",
+        "description": "Ho\u1ea1t h\u00ecnh Trung Qu\u1ed1c thuy\u1ebft minh",
+        "url": "https://gitlab.com/tearrs/movie/-/raw/main/YanHH3DProvider.cs3",
+        "name": "YanHH3DProvider"
     }
 ]
